@@ -1,9 +1,14 @@
 # 1. how to build
 mkdir -p ~/Documents/go2_ws/src
+
 cd ~Documents/go2_ws/src
+
 git clone ...
+
 cd ~/Documents/go2_ws/src/livox_ros_driver2 && ./build.sh humble
+
 cd ~/Documents/go2_ws && colcon build
+
 
 # 2. Start worlds:
 source Documents/go2_ws/install/setup.bash
